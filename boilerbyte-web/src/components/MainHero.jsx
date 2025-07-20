@@ -11,7 +11,7 @@ export default function MainHero() {
             <div>
                 <h2 className="pt-25 text-default font-firamonoregular leading-none">$ ssh user@boilerbyte.com</h2>
                 <h1 className="pt-4 text-default font-interextrabold text-[60px] sm:text-[80px] md:text-[120px] leading-none">boilerbyte</h1>
-                <h2 className="pt-4 pb-8 text-default font-firamonoregular text-[15px] sm:text-[25px] leading-none">your goto resources hub for purdue cs.</h2>
+                <h2 className="pt-4 pb-8 text-default font-firamonoregular text-[15px] sm:text-[25px] leading-none">your goto resource hub for purdue cs.</h2>
 
                 <div className="w-90 h-90 sm:w-120 sm:h-80 lg:w-200 lg:h-60 border-1 border-default">
                     <h2 className="pl-5 pt-7 sm:pt-12 md:pt-9 font-firamonobold leading-none text-[18px] lg:text-[20px] text-default">
@@ -23,10 +23,10 @@ export default function MainHero() {
                 </div>
 
                 <div className="pt-10 flex justify-start gap-10 sm:pr-0 pr-12">
-                    <a href="" className="flex w-55 h-25 bg-default items-center justify-center">
+                    <a href="/courses/" className="hover:underline flex w-55 h-25 bg-default items-center justify-center">
                         <p className="text-[20px] text-center font-firamonoregular">./init</p>
                     </a>
-                    <a href="/man/" className="flex w-55 h-25 border-1 border-default items-center justify-center">
+                    <a href="/man/" className="hover:underline text-default flex w-55 h-25 border-1 border-default items-center justify-center">
                         <p className="text-[20px] text-default text-center font-firamonoregular">man boilerbyte</p>
                     </a>
                 </div>

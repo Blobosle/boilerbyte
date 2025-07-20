@@ -9,19 +9,19 @@ export default function Footer() {
                 </p>
 
                 <p className="hidden sm:block pt-30 font-firamonoregular">
-                    $ echo “© 2025 boilerbyte. All rights reserved.”
+                    $ echo “© 2025 BoilerByte. All rights reserved.”
                 </p>
 
                 <p className="sm:hidden pt-30 font-firamonoregular">
-                    $ echo “© 2025 boilerbyte.<br/>All rights reserved.”
+                    $ echo “© 2025 BoilerByte.<br/>All rights reserved.”
                 </p>
             </div>
 
             <div className="hidden md:block pt-20 pl-25 lg:pl-0">
-                <h2 className="font-firamonobold">$ ls /docs</h2>
+                <h2 className="font-firamonobold">$ ls docs/</h2>
 
                 <p className="pt-5 font-firamonoregular">
-                    <a href="/" className="hover:underline">README.md<br/></a>
+                    <a href="/man/" className="hover:underline">README.md<br/></a>
                     <a href="/" className="hover:underline">donate.sh<br/></a>
                     <a href="/" className="hover:underline">collaborate.txt<br/></a>
                     <a href="/" className="hover:underline">contact.sh<br/></a>

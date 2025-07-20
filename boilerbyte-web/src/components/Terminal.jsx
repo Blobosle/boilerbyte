@@ -2,7 +2,7 @@ export default function Terminal() {
     return (
         <div className="w-full h-220">
             {/* Title */}
-            <h2 className="pt-10 pl-25 text-default text-[18px] font-firamonoregular">$ man boilerbyte</h2>
+            <h2 className="pt-10 pl-25 text-default text-[15px] font-firamonoregular">$ man boilerbyte</h2>
 
             {/* Terminal window */}
             <div className="pt-5 flex justify-center">
