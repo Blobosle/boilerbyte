@@ -51,6 +51,10 @@
     --color-gbegin: #1D1D19;
     --color-gend: #131313;
     --color-gmid: #181816;
+    --color-bar: #11100F;
+    --color-barred: #FF7272;
+    --color-baryellow: #FFFB80;
+    --color-bargreen: #72FF63;
 
     --font-firamonobold:   FiraMonoBold, "monospace";
     --font-firamonomedium: FiraMonoMedium, "monospace";
@@ -64,3 +68,4 @@
     --font-intersemibold:  InterSemiBold, "sans-serif";
 }
 
+html {@apply overscroll-none;}
