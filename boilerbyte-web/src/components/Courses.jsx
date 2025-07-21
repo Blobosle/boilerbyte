@@ -71,7 +71,7 @@ export default function Courses() {
 
             {resources.map(({ label, desc, ref }) => (
                 <React.Fragment key={label}>
-                    <a href={ref} className="pt-7 pb-4 flex justify-between">
+                    <a href={ref} target="_blank" className="pt-7 pb-4 flex justify-between">
                         <div className="hover:underline text-[25px] tracking-[0.02em] text-default font-intersemibold">
                             {label}
                         </div>
