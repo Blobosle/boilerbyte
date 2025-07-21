@@ -69,4 +69,4 @@
     --font-intersemibold:  InterSemiBold, "sans-serif";
 }
 
-html {@apply overscroll-none;}
+/* html {@apply overscroll-none;} */
